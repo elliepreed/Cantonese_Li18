@@ -34,7 +34,7 @@ def compute_score(data, model, mode='ilm'):
 def process_files(model, mode, model_name, output_folder):
     # Updated to your CSV filenames instead of parquet files
     file_names = [
-       'data.csv',
+       'Cantonese_data.csv',
     ]
 
     os.makedirs(output_folder, exist_ok=True)
